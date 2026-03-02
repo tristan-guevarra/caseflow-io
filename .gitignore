@@ -1,0 +1,65 @@
+# dependencies
+node_modules/
+.venv/
+venv/
+*.egg-info/
+
+# build output
+.next/
+dist/
+build/
+out/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# environment & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# databases & logs
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# os
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# testing & coverage
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# docker volumes
+postgres_data/
+redis_data/
+minio_data/
+
+# celery
+celerybeat-schedule
+celerybeat-schedule.db
+
+# misc
+*.egg
+*.tar.gz
+.cache/
+.claude/
